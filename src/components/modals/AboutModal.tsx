@@ -12,7 +12,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         This is an custom made version of the maths expression guessing game we all know and
         love for Benesse Interview Assessment - {' '}
         <a
-          href="https://github.com/idmaa001/benesse-assign-aditya.gits"
+          href="https://github.com/idmaa001/benesse-assign-aditya.git"
           className="underline font-bold"
         >
             check out the code here
