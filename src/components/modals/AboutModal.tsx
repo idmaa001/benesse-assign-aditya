@@ -12,12 +12,12 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         This is an custom made version of the maths expression guessing game we all know and
         love for Benesse Interview Assessment - {' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/idmaa001/benesse-assign-aditya.gits"
           className="underline font-bold"
         >
             check out the code here
         </a>{' '}
       </p>
-    </BaseModal>  
+    </BaseModal>
   )
 }
