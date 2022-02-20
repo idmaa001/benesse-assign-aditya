@@ -1,6 +1,6 @@
 import { generateExpression } from "math-expression-generator";
 
-
+/* To check if the input expression is computable or not */
 export const isInputExpComputable = (exp: string) => {
     var tokenList1 = [];
     var tokenList2 = [];
@@ -26,18 +26,13 @@ export const isInputExpComputable = (exp: string) => {
       return false
 }
 
+/* To check if the input expression is correct or not */
 export const isWinningExp = (exp: string) => {
   return esolution === exp
 }
 
+/* To get a new problem */
 export const getProblem = () => {
-  // January 1, 2022 Game Epoch
-  const epochMs = new Date('January 1, 2022 00:00:00').valueOf()
-  const now = Date.now()
-  const msInDay = 1 //86400000
-  const index = Math.floor((now - epochMs) / msInDay)
-  const nextday = (index + 1) * msInDay + epochMs
-
     var restr  = ''
     while(restr.length != 8){
     const expression = generateExpression({
@@ -52,9 +47,6 @@ export const getProblem = () => {
 }
   return {
     esolution : restr,
-    solutionIndex: index,
-    tomorrow: nextday,
   }
 }
-
-export const { esolution, solutionIndex, tomorrow } = getProblem()
+export const { esolution } = getProblem()
