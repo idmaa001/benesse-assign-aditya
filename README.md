@@ -14,6 +14,8 @@ Clone the repository and perform the following command line actions:
 $> cd benesse-int-app
 $> npm install
 $> npm run start
+
+For now it runs on port 3010 
 ```
 ###
 
