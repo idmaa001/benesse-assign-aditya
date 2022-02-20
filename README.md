@@ -1,4 +1,4 @@
-# React Wordle
+# Benesse Interview Assignment
 
 This is a assignment sample project of the popular maths expression guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
@@ -14,6 +14,8 @@ Clone the repository and perform the following command line actions:
 $> cd benesse-int-app
 $> npm install
 $> npm run start
+
+For now it runs on port 3010 
 ```
 ###
 
