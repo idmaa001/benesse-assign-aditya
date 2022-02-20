@@ -1,4 +1,4 @@
-# Benesse Interview Assignment
+# Nerdle Assignment
 
 This is a assignment sample project of the popular maths expression guessing game we all know and love. Made using React, Typescript, and Tailwind.
 
